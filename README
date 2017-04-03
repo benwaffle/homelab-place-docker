@@ -1,0 +1,2 @@
+docker build -t "homelab" .
+docker run --rm -e "USERNAME=<your username>" -e "PASSWORD=<your password>" homelab
